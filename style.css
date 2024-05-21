@@ -1,0 +1,94 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    background-color: hsl(0, 0%,12%);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: -23px 13px 29px -6px rgba(0,0,0,0.8),0px 10px 15px -3px rgba(0,0,0,0.1);
+    min-width: 320px;
+    max-width: 900px;
+
+}
+.cabelho {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+ .imag{
+    display: flex;
+    justify-content: center;
+    height: 20vh; 
+}
+
+img{
+    
+    border-radius: 100px; 
+}
+
+h1{
+
+    color: hsl(0,0%,100%);
+}
+
+.dados{
+    color: hsl(75, 94%, 57%);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profissao{
+    color:  hsl(0,0%,100%);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.redes{
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0,0%,100%);
+    justify-content: space-evenly;
+    border: none;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    max-width: 1400px;
+
+}
+
+a{
+    color: hsl(0,0%,100%);
+    background-color: hsl(0,0%,20%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    width: 100px;
+    font-family: georgia,'times new roman', times, serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration:none;
+    border: none;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 1400px; 
+}
